@@ -1,0 +1,11 @@
+sudo su
+
+apt install nginx
+
+systemctl start nginx
+
+cd sites-available
+
+nano default
+
+apt install apache2
