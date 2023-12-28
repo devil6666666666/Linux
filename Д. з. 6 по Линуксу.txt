@@ -13,6 +13,15 @@ nano 000-default.conf
 <FilesMatch \.php$>
         SetHandler "proxy:unix:/var/run/php/php8.2-fpm.sock|fcgi://localhost"
         <FilesMatch>
+/etc/nginx/sites-enabled# apt install php-common libapache2-mod-php php-cli
+
+/var/www/html# cat > info.php
+<?php
+phpinfo();
+?>
+
+/etc/nginx/sites-enabled# apt install php8.2-fpm
+
 
 
 
