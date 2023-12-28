@@ -21,7 +21,3 @@ phpinfo();
 ?>
 
 /etc/nginx/sites-enabled# apt install php8.2-fpm
-
-
-
-
