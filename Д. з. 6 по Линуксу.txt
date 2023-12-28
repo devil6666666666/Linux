@@ -8,4 +8,6 @@ cd sites-available
 
 nano default
 
+service nginx reload
+
 apt install apache2
